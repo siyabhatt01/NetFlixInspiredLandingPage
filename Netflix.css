@@ -1,0 +1,252 @@
+*{
+    padding: 0;margin: 0;
+    font-family: sans-serif;
+    font-weight: 550;
+}
+
+.container{
+    background-image: url("./NetflixAssets/NetflixBackground1.jpg");
+
+    height:auto;
+    width:100%;
+    background-repeat: repeat-x;
+    position:relative;
+}
+.navbar{
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    height: 200px;
+}
+.navitem{
+    margin-top: 10px;
+}
+.logo{
+    flex-grow: 2;
+}
+.navitem select{
+     background-color: black;
+     color: white;
+     padding:6px 20px;
+     border-radius: 5px;
+     font-family: sans-serif;
+    
+}
+.navitem button{
+    background-color:#e50914;
+    color: white;
+    border-color: #e50914;
+    border-radius: 5px;
+    font-family: sans-serif;
+    margin-left: 10px;
+    padding:4px 15px;
+    font-weight: 550;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.text1{
+    color: white;
+    font-size: 3rem;
+   font-weight: 900;
+}
+.text2{
+   color: rgb(255, 255, 255);
+   margin-top:15px;
+   font-size: 1.5rem;
+   font-weight: 400;
+}
+
+.text3{
+    color: white;
+   margin-top:25px;
+   font-size: 1.5rem;
+   font-weight: 300;
+}
+.email{
+    margin-top: 25px;
+}
+.email input{
+    background-color: rgb(51, 44, 44);
+    border-radius: 5px;
+    border:0.5px solid rgb(254, 240, 240) ;
+    color:  rgb(246, 237, 237) ;
+    padding:15px 90px 15px 10px;
+    font-size: larger;
+}
+.email button{
+    background-color: #e50914;
+    color: white;
+    border:1px solid #e50914;
+    border-radius: 5px;
+    font-size:x-large;
+    padding:12px 70px 12px 20px;
+}
+.email button :hover{
+    background-color: #7a3135;
+}
+.blank{
+    height:200px;
+    width:100%;
+}
+
+
+.secondPage{
+    background-color: black;
+    height:70vh;
+    width:100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.secItem p{
+    text-align: left;
+   
+}
+.secItem .p1{
+   color: white;
+   font-size: 3rem;
+   font-weight: 700;
+   margin-top: 15vh;
+   margin-left: 5vw;
+}
+.secItem .p2{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-top: 5vh;
+   margin-left: 5vw;
+ }
+ 
+ .secItem img{
+    max-height:70vh;
+    max-width: 50vh;
+    top:20vh;
+ }
+
+     /* third page */
+ .thirdPage{
+    background-color: black;
+    height:90vh;
+    width:100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.thirdItem .img3{
+    grid-area: 1/1/2/2;
+}
+
+ .img3 .first{
+    min-width: auto;
+    max-height:50vh;
+    
+}
+ .img3 .second{
+    margin-left:5vw;
+    height:17vh;
+    width:30vw;
+    min-height: auto;
+    min-width: auto;
+}
+ .img3 .third{
+   height:12vh;
+   position: relative;
+   right:7vw;
+   z-index: 2;
+}
+.thirdItem .para{
+    grid-area:1/2/2/3;
+
+}
+.thirdItem .p1{
+    color:white;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 15vh;
+    margin-left: 5vw;
+ }
+ .thirdItem .p2{
+     color: white;
+     font-size: 1.5rem;
+     font-weight: 300;
+     margin-top: 5vh;
+    margin-left: 5vw;
+  }
+ 
+.page4{
+    height:auto;
+    background-color: black;
+}
+.page4 h1{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.Questions .a{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 100;
+    border:1px solid rgb(255, 252, 252);
+    background-color: rgb(55, 53, 53);
+    margin:20px;
+    padding-top: 5vh;
+    padding-left: 3vw;
+    padding-bottom: 5vh;;
+}
+.Questions .a :hover{
+    background-color: rgb(131, 128, 128);
+}
+.page4 .last{
+    color: white;
+    text-align: center;
+    padding-top: 5vh;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.lastLogin .email{
+    margin-top: 25px;
+}
+.lastLogin .email input{
+    background-color: rgb(51, 44, 44);
+    border-radius: 5px;
+    border:0.5px solid rgb(254, 240, 240) ;
+    color:  rgb(246, 237, 237) ;
+    padding:15px 90px 15px 10px;
+    font-size: larger;
+}
+.lastLogin .email button{
+    background-color: #e50914;
+    color: white;
+    border:1px solid #e50914;
+    border-radius: 5px;
+    font-size:x-large;
+    padding:12px 70px 12px 20px;
+}
+.lastLogin .email button :hover{
+    background-color: #7a3135;
+}
+.lastLogin{
+    margin-left: 20vw;
+    padding: 10px;
+}
+.page4 .blank{
+    height:100px;
+    width:100%;
+}
+
+
+.website{
+    width:auto;
+}
+.hr{
+    width:100%;
+    height:10px;
+    background-color: rgb(88, 87, 87);
+    border: none;
+  }
